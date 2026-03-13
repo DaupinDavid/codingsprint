@@ -1,6 +1,9 @@
 # Wikipedia Learn — Next.js
 
 > **Liens du projet en ligne :** 🔗 [![Déployé sur Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://codingsprintnextjs-ebp5q9yxx-dds-projects-c7c1e9b8.vercel.app/) &nbsp; 🔗 [![Déployé sur Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://codingsprint.netlify.app/)
+
+**Wikipedia Learn** est une application web interactive conçue pour gamifier l'apprentissage. Développée avec **Next.js** et **Tailwind CSS**, elle propose des parcours d'apprentissage chronométrés, un système d'expérience (XP) persistant via **Zustand**, et une interface utilisateur moderne basée sur **shadcn/ui**. Ce projet démontre ma capacité à concevoir des architectures frontend robustes, à gérer des états complexes et à déployer des applications performantes en production (CI/CD via Vercel & Netlify).
+
 ## Installation & lancement
 
 ```bash
