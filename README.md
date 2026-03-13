@@ -1,8 +1,8 @@
 # Wikipedia Learn — Next.js
 
 > **Lien du projet en ligne :** 
-[🔗 Voir la démo en direct](https://codingsprint.netlify.app/)
-[🔗 Voir la démo en direct](https://codingsprintnextjs-ebp5q9yxx-dds-projects-c7c1e9b8.vercel.app/)
+[🔗[Déployé sur Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://codingsprintnextjs-ebp5q9yxx-dds-projects-c7c1e9b8.vercel.app/)
+[🔗[Déployé sur Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://codingsprint.netlify.app/)
 ## Installation & lancement
 
 ```bash
