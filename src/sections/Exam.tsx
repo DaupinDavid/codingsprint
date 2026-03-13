@@ -3,14 +3,6 @@
  * ============================================
  * PAGE DE L'EXAMEN FINAL (Exam.tsx)
  * ============================================
- * Animations Framer Motion ajoutées :
- * - Questions slident à chaque changement
- * - Boutons de réponse en cascade
- * - Feedback vert/rouge animé
- * - Transition entre les séries (flash + bounce)
- * - Explication glisse vers le haut
- * - Écran résultats avec diplôme animé et stats en cascade
- * - Badge diplôme pop avec spring
  */
 
 import { useState, useEffect, useCallback } from 'react';
@@ -53,7 +45,6 @@ export function Exam({ onComplete, onExit }: ExamProps) {
   const [examCompleted,   setExamCompleted]   = useState(false);
   const [newBadge,        setNewBadge]        = useState<string | null>(null);
 
-  // Clé unique par question + série pour forcer le re-mount de l'AnimatePresence
   const questionKey = `${currentSeries}-${currentQuestion}`;
 
   const questions = examQuestions[currentSeries];

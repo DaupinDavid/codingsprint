@@ -3,15 +3,6 @@
  * ============================================
  * MODE SURVIE (ModeSurvie.tsx)
  * ============================================
- * Animations Framer Motion ajoutées :
- * - Intro : overlay fade + carte bounce
- * - Règles : apparaissent en cascade
- * - Questions : slide depuis la droite (remplace l'animation CSS)
- * - Boutons de réponse : cascade + hover/tap + icône pop
- * - Timer : pulse rouge urgent + barre animée
- * - Fin de partie : GAME OVER / VICTOIRE avec scale + shake
- * - Stats en cascade
- * - Classement : lignes en cascade
  */
 
 import { useState, useEffect, useCallback, useRef } from 'react';

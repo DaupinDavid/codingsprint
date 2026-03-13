@@ -3,14 +3,6 @@
  * ============================================
  * PAGE DU QUIZ (Quiz.tsx)
  * ============================================
- * Animations Framer Motion ajoutées :
- * - Questions slident à chaque nouvelle question
- * - Boutons de réponse apparaissent en cascade
- * - Feedback vert/rouge animé sur la réponse choisie
- * - Explication glisse vers le haut
- * - Écran de résultats avec stats qui pop en cascade
- * - Badge nouveau badge avec bounce
- * - Timer qui pulse en rouge quand < 10s
  */
 
 import { useState, useEffect, useCallback } from 'react';

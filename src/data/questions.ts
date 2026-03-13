@@ -1,19 +1,3 @@
-/**
- * ============================================
- * DONNÉES DES QUESTIONS DU QUIZ
- * ============================================
- * 
- * Ce fichier contient TOUTES les questions du quiz.
- * 20 questions par niveau = 60 questions au total
- * Plus 3 séries de 20 questions pour l'examen final
- * 
- * POUR AJOUTER UNE QUESTION :
- * 1. Copiez un bloc existant
- * 2. Changez l'ID (doit être unique)
- * 3. Modifiez la question, les options, et l'explication
- * 4. Assurez-vous que correctAnswer correspond à l'index de la bonne réponse
- */
-
 import type { Question } from '@/types';
 
 // ============================================
@@ -25,7 +9,7 @@ export const debutantQuestions: Question[] = [
     id: 1,
     question: "En quelle année commence traditionnellement le Moyen-Âge ?",
     options: ["476 après J.-C.", "500 après J.-C.", "400 après J.-C.", "600 après J.-C."],
-    correctAnswer: 0,  // Index 0 = première option = "476 après J.-C."
+    correctAnswer: 0,
     explanation: "Le Moyen-Âge commence en 476 après J.-C. avec la chute de l'Empire romain d'Occident.",
     level: 'debutant'
   },
@@ -521,10 +505,6 @@ export const expertQuestions: Question[] = [
 // QUESTIONS DE L'EXAMEN FINAL
 // ============================================
 
-/**
- * L'examen final contient 3 séries de 20 questions mélangées.
- * On prend des questions de chaque niveau pour créer les séries.
- */
 
 export const examQuestions: Question[][] = [
   // Série 1 - 20 questions mélangées (7 débutant + 7 intermédiaire + 6 expert)
